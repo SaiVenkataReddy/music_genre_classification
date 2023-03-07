@@ -19,5 +19,5 @@ if submitted:
         for i in range(100000):
             x=1
     st.success('Done!')
-    st.write(audio)
+    st.write(f"Input audio file is {audio} and Selected model is {model}")
     st.audio(audio, format="audio/wav")
